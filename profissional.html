@@ -1,79 +1,94 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset ="UTF-8">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-}
-
-td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-}
-
-tr:nth-child(even) {
-    background-color: #dddddd;
-}
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 </style>
-</head>
-<body>
+<body class="w3-light-grey">
 
-<h2>Experiências Profissionais</h2>
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
 
-<table>
-  <tr>
-    <th>Empresa</th>
-    <th>Função</th>
-    <th>Duração</th>
-  </tr>
-  <tr>
-    <td>Petrobras</td>
-    <td>Técnico de Inspeção de Equipamentos e Instalações</td>
-    <td>5 anos</td>
-  </tr>
-  <tr>
-    <td>Algás</td>
-    <td>Assistente técnico de engenharia</td>
-    <td>2 anos</td>
-  </tr>
-  <tr>
-    <td>UFRN</td>
-    <td>Assistente em Administração</td>
-    <td>1 mes</td>
-  </tr>
-  
-</table>
-  
-  <br>
-  <br>
-  <br>
-  
-  
-  <h2>Formação</h2>
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+    
+    <!-- Sidebar -->
+   <div class="w3-quarter w3-display-container">
+    
+      <div class="w3-white w3-text-grey w3-card-4 w3-display-topmiddle w3-bar-block" style="width:70%">
+    <h3 class="w3-bar-item"><i class="fa fa-bars fa-fw w3-margin-right w3-large w3-text-teal"></i>Menu</h3>
+      <a href="index.html" class="w3-bar-item w3-button "><h5><p><i class="fa fa-arrow-left fa-fw w3-margin-right w3-large w3-text-teal"></i>Home</p></h5></a>    
+      <a href="Links.html" class="w3-bar-item w3-button "><h5><p><i class="fa fa-external-link-square fa-fw w3-margin-right w3-large w3-text-teal"></i>Links</p></h5></a>
+      <a href="lazer.html" class="w3-bar-item w3-button"><h5><p><i class="fa fa-puzzle-piece fa-fw w3-margin-right w3-large w3-text-teal"></i>Lazer</p></h5></a>
+      <a href="contato.html" class="w3-bar-item w3-button"><h5><p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>Contato</p></h5></a>
+    </div>
+    </div>
+   
 
-<table>
-  <tr>
-    <th>Curso</th>
-    <th>Nível</th>
-    <th>Instituição</th>
-  </tr>
-  <tr>
-    <td>Técnico em Mecânica</td>
-    <td>Médio</td>
-    <td>IFAL</td>
-  </tr>
-  <tr>
-    <td>Ciências e Tecnologia</td>
-    <td>Bacharelado</td>
-    <td>UFRN</td>
-  </tr>
+    <!-- Right Column -->
+    <div class="w3-threequarter w3-right">
+    
+      <div class="w3-container w3-card w3-white w3-margin-bottom"style="width:90%">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Experiências Profissionais</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Assistente em Administração - UFRN</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2018 - <span class="w3-tag w3-teal w3-round">Atual</span></h6>
+          <p> Apoio nas áreas de recursos humanos, administração,finanças e logística.</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Técnico de Inspeção de Equipamentos - Petrobras</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Out 2016</h6>
+          <p>Responsável pela integridade estrutural e segurança operacional dos diversos equipamentos, tais como: dutos, vasos, torres, reatores, trocadores de calor e demais instalações em terra e mar. </p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Assistente Técnico de Engenharia - Algás</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2010 - Mar 2012</h6>
+          <p>Operador e mantenedor do sistema de distribuição de gás no Estado de Alagoas,  </p><br>
+        </div>
+      </div>
+
+      <div class="w3-container w3-card w3-white" style="width:90%">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Formação Acadêmica</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Universidade Federal do Rio Grande do Norte</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2017 - <span class="w3-tag w3-teal w3-round">Atual</span></h6>
+          <p>Graduação em Ciências e Tecnologia</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Instituto Federal de Alagoas</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2005 - 2009</h6>
+          <p>Técnico em Mecânica</p>
+          <hr>
+        </div>
+      </div>
+
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
   
-  
-</table>
+  <!-- End Page Container -->
+</div>
+
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+  <p>Find me on social media.</p>
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
 
 </body>
 </html>
