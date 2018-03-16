@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<title>Lazer - JM</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
+<body class="w3-light-grey">
+
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+    
+    <!-- Sidebar -->
+   <div class="w3-quarter w3-display-container">
+    
+      <div class="w3-white w3-text-grey w3-card-4 w3-display-topmiddle w3-bar-block" style="width:70%">
+    <h3 class="w3-bar-item"><i class="fa fa-bars fa-fw w3-margin-right w3-large w3-text-teal"></i>Menu</h3>
+      <a href="index.html" class="w3-bar-item w3-button "><h5><p><i class="fa fa-arrow-left fa-fw w3-margin-right w3-large w3-text-teal"></i>Home</p></h5></a>    
+      <a href="Links.html" class="w3-bar-item w3-button "><h5><p><i class="fa fa-external-link-square fa-fw w3-margin-right w3-large w3-text-teal"></i>Links</p></h5></a>
+      <a href="lazer.html" class="w3-bar-item w3-button"><h5><p><i class="fa fa-puzzle-piece fa-fw w3-margin-right w3-large w3-text-teal"></i>Lazer</p></h5></a>
+      <a href="contato.html" class="w3-bar-item w3-button"><h5><p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>Contato</p></h5></a>
+    </div>
+    </div>
+  
+    <!-- Right Column -->
+    <div class="w3-threequarter w3-right">
+    
+      <div class="w3-container w3-display-container w3-card w3-white w3-margin-bottom" style="width:90%">
+           <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-camera fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Fotografias</h2>
+             
+         <div class="w3-display-container mySlides w3-padding-16">
+                <img src="Imagens/Fotografias/comida de interior co.jpg" style="width:100%">
+                 <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-teal">
+                  Nemocón, Colombia
+                 </div>
+         </div>
+
+        <div class="w3-display-container mySlides">
+                <img src="Imagens/Fotografias/mascaras colombianas.jpg" style="width:100%">
+                 <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-teal">
+                  Cartagena, Colombia
+                 </div>
+        </div>
+
+        <div class="w3-display-container mySlides">
+                <img src="Imagens/Fotografias/offshore.jpg" style="width:100%">
+                <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-teal">
+                Aracaju, Brasil
+                </div>
+        </div>
+
+        <div class="w3-display-container mySlides">
+                <img src="Imagens/Fotografias/festa em mangue seco.jpg" style="width:100%">
+                <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-teal">
+                Mangue Seco, Brasil
+                </div>
+        </div>
+
+        <div class="w3-display-container mySlides">
+                <img src="Imagens/Fotografias/farol de itacaré.jpg" style="width:100%">
+                <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-teal">
+                Itacaré, Brasil
+        </div>
+        </div>
+
+          <button class="w3-button w3-display-left w3-teal" onclick="plusDivs(-1)">&#10094;</button>
+          <button class="w3-button w3-display-right w3-teal" onclick="plusDivs(1)">&#10095;</button> 
+
+        </div>
+        <div class="w3-container w3-card w3-white w3-margin-bottom"style="width:90%">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-tv fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Vídeos Interessantes</h2>
+        <div class="w3-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/yILOsgQXHjg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
+
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+  <p>Find me on social media.</p>
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+</body>
+</html>
