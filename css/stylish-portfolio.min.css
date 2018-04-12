@@ -120,7 +120,7 @@ h6 {
   -o-transition: all .4s ease 0s;
   transition: all .4s ease 0s;
   transform: translateX(250px);
-  background: #1d809f;
+  background: #04B431;
   border-left: 1px solid rgba(255, 255, 255, .1)
 }
 
@@ -213,20 +213,6 @@ h6 {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1)
 }
 
-.callout {
-  padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, .1) 0, rgba(255, 255, 255, .1) 100%), url(../img/denys-nevozhai.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover
-}
-
-.callout h2 {
-  font-size: 3.5rem;
-  font-weight: 700;
-  display: block;
-  max-width: 30rem
-}
 
 .portfolio-item {
   display: block;
@@ -288,7 +274,7 @@ h6 {
     clip-path: inset(2rem)
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, .9);
+    background-color: #04B431;
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem)
   }
